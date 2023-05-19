@@ -1,0 +1,130 @@
+*{
+
+    background-color: black;
+}
+.Aimg{
+    border: solid 2px black;
+    margin: 10px 100px;
+}
+
+.container{
+    border: solid 2px green;
+    width: 940px;
+    margin: 0 auto;
+    padding: 1em;    
+} 
+
+.caja-todo{
+    border: solid 2px black;
+    margin: 0 auto;
+    padding: 1px;
+    position: relative;
+    background-color: black;
+}
+
+.codificar{
+    border: solid 2px rgb(67, 150, 80);
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.texto-para-codificar{ 
+    border: solid 2px black;
+    background-color: black;
+    color: grey;
+} 
+
+.codificado{
+    border: solid 2px rgb(67, 150, 80);
+    margin: 0 auto;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin: 1px;
+    height: 560px;
+    width: 400px;
+    background-color: black;
+    color: gray;
+} 
+
+.detective{
+    height: 452px;
+    width: 399px;
+    transition: 1s all;
+    border-radius: 5px;
+}
+
+.detective:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+.info{
+    margin: 1em 0;
+}
+
+.infop{
+    border: solid 2px black;
+    display: inline;
+    color: white;
+}
+
+.botones{
+    border: solid 2px black;
+    display: inline-block;
+    width: 440px;
+    position: relative;
+} 
+
+.encriptar-boton{
+    background-color: black;
+    color: rgb(10, 87, 180);
+    width: 200px;
+    height: 40px;
+    border-radius: 15px ;
+    transition: 1s all;
+}
+
+.encriptar-boton:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    color: rgb(14,144,26);
+}
+
+.desencriptar-boton{
+    background-color: black;
+    color: rgb(10, 87, 180);
+    width: 200px;
+    height: 40px;
+    border-radius: 15px ;
+    transition: 1s all;
+    position: absolute;
+    right: 20px;
+}
+
+.desencriptar-boton:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    color: rgb(14,144,26);
+}
+
+.boton-solo{
+    position: absolute;
+    bottom: 0px;
+    left: 8em;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px ;
+    background-color: black;
+    color: rgb(10, 87, 180);
+    transition: 1s;
+} 
+
+.boton-solo:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    color: rgb(14,144,26);
+}
+
